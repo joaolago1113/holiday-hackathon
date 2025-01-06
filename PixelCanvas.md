@@ -113,6 +113,8 @@
 
 ### Demo Video: 
 
+https://github.com/user-attachments/assets/81a4e16e-0b27-4db0-a49f-228b70f073f5
+
 ### Screenshots:
 
 #### Dashboard

@@ -4,7 +4,7 @@
 - Michael
 
 ## Project Description
-**Pixel Canvas** is a decentralized platform allowing users to create pixel art collaboratively on a 64x64 canvas. Here users can paint individual pixels or upload entire images while using **PaintTokens**, a currency based on the ERC20 standard, to buy and set colors of the pixels. Smart contracts on the **Lens network** manage all transactions and will ensure secure modification of the canvas. Integration with this blockchain makes the whole experience community-driven and allows everybody to be a part of the collective masterpiece.
+**Pixel Canvas** is a decentralized platform allowing users to create pixel art collaboratively on a 64x64 canvas. Here users can paint individual pixels or upload entire images while using **PaintTokens**, a currency based on the ERC20 standard, to buy and set colors of the pixels. Smart contracts on the **Lens network** manage all transactions and will ensure secure modification of the canvas. Integration with this blockchain makes the whole experience community-driven and allows everybody to be a part of the collective masterpiece. There's a finite supply of 10 million PaintTokens, which when all burned, the canvas will become immutable.
 
 ## Technical Overview
 
@@ -14,11 +14,11 @@
 
 - **CollaborativeArtCanvas.sol:**
   - **Description:** Handles the canvas state, pixel color updates, and interactions with PaintTokens, enabling users to paint and own pixels securely.
-  - **Deployment Address:** [0x1e952234E4014B836FfA8877b26Cb61fF206926e](https://block-explorer.testnet.lens.dev/address/0x1e952234E4014B836FfA8877b26Cb61fF206926e)
+  - **Deployment Address:** [0xDdC944c362A3D3b8B2223092Fab0027DF127ae27](https://block-explorer.testnet.lens.dev/address/0xDdC944c362A3D3b8B2223092Fab0027DF127ae27)
   
 - **PaintToken.sol:**
   - **Description:** Manages the creation, distribution, and burning of PaintTokens, ensuring a controlled token economy within the platform.
-  - **Deployment Address:** [0xDdC944c362A3D3b8B2223092Fab0027DF127ae27](https://block-explorer.testnet.lens.dev/address/0xDdC944c362A3D3b8B2223092Fab0027DF127ae27)
+  - **Deployment Address:** [0x1e952234E4014B836FfA8877b26Cb61fF206926e](https://block-explorer.testnet.lens.dev/address/0x1e952234E4014B836FfA8877b26Cb61fF206926e)
 
 ### Frontend Integration
 
@@ -113,7 +113,11 @@
 
 ### Demo Video: 
 
-https://github.com/user-attachments/assets/81a4e16e-0b27-4db0-a49f-228b70f073f5
+
+https://github.com/user-attachments/assets/2bd533bb-c986-4797-b0b4-c0b3669b955d
+
+
+
 
 ### Screenshots:
 
@@ -121,12 +125,12 @@ https://github.com/user-attachments/assets/81a4e16e-0b27-4db0-a49f-228b70f073f5
 ![image](https://github.com/user-attachments/assets/d7b5c75a-1bf6-4293-a7dd-59456b451afb)
 #### Image Upload
 ![image](https://github.com/user-attachments/assets/e68853e2-c686-435d-b160-ab0ca0c2bcd2)
-#### Shopping Cart
-![image](https://github.com/user-attachments/assets/eb40e556-9b70-4a58-9613-6e33d38e0ff2)
-#### Result of Paiting
-![image](https://github.com/user-attachments/assets/4af68e92-495c-41fb-a87f-404681f83793)
 #### Color Picker
 ![image](https://github.com/user-attachments/assets/4fc31b86-c7ce-420d-bc18-43292cf082e0)
+#### Shopping Cart
+![image](https://github.com/user-attachments/assets/eb40e556-9b70-4a58-9613-6e33d38e0ff2)
+#### Eraser Tool
+![image](https://github.com/user-attachments/assets/4af68e92-495c-41fb-a87f-404681f83793)
 #### Purchase Tokens
 ![image](https://github.com/user-attachments/assets/bd017879-e045-4493-910b-645b1af5daa7)
 
@@ -144,3 +148,4 @@ This project is licensed under the MIT License.
 - [OpenZeppelin](https://openzeppelin.com/) for their robust smart contract libraries
 - [Lens Protocol](https://lens.xyz/) for their innovative social network infrastructure
 - [ConnectKit](https://github.com/family/connectkit) for their excellent wallet connection interface and components
+
